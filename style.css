@@ -1,0 +1,31 @@
+#container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    /* color: white; */
+}
+
+.internalDivs {
+    height: 250px;
+    width: 200px;
+    border-radius: 5px;
+    overflow-y: scroll;
+}
+
+#del {
+    border: 2px solid cyan;
+}
+
+#edit{
+    border: 2px solid red;
+    height: 30px;
+    width: 30px;
+}
+
+.editImage{
+    height: inherit;
+    width: inherit;
+    border: 2px solid green;
+}
+
